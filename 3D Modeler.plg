@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 3D Modeler - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\windows\TEMP\RSPB094.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/3D Modeler.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Randy's Folder\3D Modeler\3D Modeler.cpp"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSPB094.TMP" 
+Creating temporary file "c:\windows\TEMP\RSPB095.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/3D Modeler.pdb" /debug /machine:I386 /out:"Debug/3D Modeler.exe" /pdbtype:sept 
+".\Debug\3D Modeler.obj"
+"..\..\mssdk\lib\dsound.lib"
+"..\..\mssdk\lib\d3dxof.lib"
+"..\..\mssdk\lib\ddraw.lib"
+"..\..\mssdk\lib\dinput.lib"
+"..\..\mssdk\lib\d3dim.lib"
+]
+Creating command line "link.exe @c:\windows\TEMP\RSPB095.TMP"
+<h3>Output Window</h3>
+Compiling...
+3D Modeler.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+3D Modeler.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
